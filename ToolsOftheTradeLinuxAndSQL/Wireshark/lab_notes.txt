@@ -1,0 +1,59 @@
+IPV6
+  Version: This field indicates the IP version. For an IPv6 header, IPv6 is used.
+  Traffic Class: This field is similar to the IPv4 Type of Service field. The Traffic Class field provides information about the packet's priority or class to help with packet delivery.
+  Flow Label: This field identifies the packets of a flow. A flow is the sequence of packets sent from a specific source. 
+  Payload Length: This field specifies the length of the data portion of the packet.
+  Next Header: This field indicates the type of header that follows the IPv6 header such as TCP.
+  Hop Limit: This field is similar to the IPv4 Time to Live field. The Hop Limit limits how long a packet can travel in a network before being discarded.
+  Source Address: This field specifies the source address of the sender.
+  Destination Address: This field specifies the destination address of the receiver.
+
+IPV6 Layout
+| Veriosn| Traffic CLass | Flow Label|
+|Payload Length|Next Header|Hop Limit|
+|          Source Address            |
+|          Destination               |
+
+WIRESHARK
+Open-source network protocl analyzer.It uses a graphical user interface (GUI), which makes it easier to visualize network communications for packet analysis purposes
+
+Different types of comparison operators for display filtering
+Operator type           Symbol  Abbreviation
+Equal                    ==        eq
+Not Equal                !=        ne
+Greater than             >         gt
+Less than                <         lt
+Greater than or equal to >=        ge
+Less than or equal to    <=        le
+
+Combine comparison operators with Boolean logical operators like 'and' and 'or' to create complez display filters
+
+The 'contains' operator is used to filter packets that contain an exact match of a string of text. 
+Here is an example of a filter that displays all HTTP streams that match the keyword "moved". 
+
+The 'matches' operator is used to filter packets based on the regular expression (regex) that's specified
+
+PROTOCOL FILTERING
+Protocol filtering is one of the simplest ways you can use display filters. 
+You can simply enter the name of the protocol to filter. 
+For example, to filter for DNS packets simply type 'dns' in the filter toolbar. Here is a list of some protocols you can filter for:
+
+dns
+http
+ftp
+ssh
+arp
+telnet
+icmp
+
+FILTER FOR MAC ADDRESS
+eth.addr == 00:70:f4:23:18:c4
+
+FILTER FOR IP ADDRESS
+ip.addr == 172.21.224.2 -> Filters for SpecificIP address
+ip.src == 10.10.10.10 -> Filters for packets originating from a specific destination IP address
+ip.dst == 4.4.4.4 -> filters packets delivered to a specific destination 
+
+PORT FILTERING
+udp.port == 53
+tcp.port == 25

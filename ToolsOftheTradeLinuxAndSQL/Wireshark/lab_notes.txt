@@ -9,7 +9,7 @@ IPV6
   Destination Address: This field specifies the destination address of the receiver.
 
 IPV6 Layout
-| Veriosn| Traffic CLass | Flow Label|
+| Version| Traffic CLass | Flow Label|
 |Payload Length|Next Header|Hop Limit|
 |          Source Address            |
 |          Destination               |

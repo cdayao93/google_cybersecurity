@@ -1,4 +1,7 @@
-# google_cybersecurity
+Google Cybersecurity Professional Certificate
+
+[GoogleCybersecurityCertificate_Badge20240215-45-eqg0tu.pdf](https://github.com/cdayao93/google_cybersecurity/files/14302528/GoogleCybersecurityCertificate_Badge20240215-45-eqg0tu.pdf)
+
 Projects, notes, and write-ups I have done while completing the Google Cybersecurity Certificate 
 
 This repo holds all of the projects, notes, and write-ups I have done while completing the Google Cybersecurity Professional Certificate.

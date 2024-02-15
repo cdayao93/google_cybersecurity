@@ -1,6 +1,6 @@
 Google Cybersecurity Professional Certificate
 
-[GoogleCybersecurityCertificate_Badge20240215-45-eqg0tu.pdf](https://github.com/cdayao93/google_cybersecurity/files/14302528/GoogleCybersecurityCertificate_Badge20240215-45-eqg0tu.pdf)
+![image](https://github.com/cdayao93/google_cybersecurity/assets/147434719/a08ea458-f434-4e8a-8f99-759560ad5a39)
 
 Projects, notes, and write-ups I have done while completing the Google Cybersecurity Certificate 
 
